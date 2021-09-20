@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+.frog {
+    width: 100px;
+    height: 75px;
+}
+
+.header-footer {
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(216, 107, 107);
+}
+
+.header-footer > li {
+    display: inline-block;
+}
+
+.header-footer > li > a {
+    list-style: none;
+    margin-left: 365px;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
+
+.header-footer > li > a:hover {
+    color: rgb(169, 250, 196);
+}
+
+.p > a {
+    text-decoration: none;
+    color: rgb(216, 107, 107);
+}
+
+.hr {
+    border-color:rgb(216, 107, 107);
+}
+.h {
+    margin-left: 36%;
+}
+.h1 {
+    margin-left: 38%;
+}
+.h2 {
+    margin-left: 43%;
+}
+.h3 {
+    margin-left: 47%;
+}
+.ul {
+    list-style: none;
+}
+.ul > li {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+.ul > li > a:hover {
+    color:rgb(216, 107, 107);
+}
+
+.img {
+    height: 300px;
+    width: 400px;
+    outline: 3px solid rgb(216, 107, 107);
+}
+
+.mapp {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.map {
+    position: absolute;
+    top: 47%;
+    left: 60%;
+}
+
+body {
+    background-color: rgb(169, 250, 196);
+    font-size: 27px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none; 
+}
