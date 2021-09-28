@@ -118,6 +118,21 @@
     outline: 5px solid rgb(216, 107, 107);
 }
 
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    user-select: none;
+    outline: 5px solid rgb(216, 107, 107);
+    border-radius: 1px;
+  } 
+  .button:active {background: white;}
+  .button:hover {color: rgb(216, 107, 107);}
+
 body {
     background-color: rgb(169, 250, 196);
     font-size: 27px;
