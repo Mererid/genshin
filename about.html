@@ -2,47 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="design.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <title>About JabaShop</title>
-    <style>
-        img {
-            width: 125px;
-            height: 100px;
-        }
-        body {
-            background-color: antiquewhite;
-            color: chocolate;
-        }
-    </style>
-</head>
 <body> 
-   <img align=right src="images/frog.png" alt="frog.png">
-   <h1>О нас</h1> 
-   <hr align="left" color="chocolate">
-   <ul>
-       <li>
-           <a href="main.html">Вернуться на главную</a>
-        </li>
-   </ul>
-   <hr align="left" color="chocolate">
-   <h2>Наши преимущества</h2> 
-   Меняем представление о качестве онлайн-сервиса. Делаем покупки удобными и выгодными. <br> 
-   Экономим ваши деньги и время, позволяя вам вложиться в поистине прекрасную вещь - жабу. 
-   <hr align="left" color="chocolate">
-   <form>
-       <legend>Что вы думаете о нашем сайте и товарах?</legend>
-        Представьтесь: <input type="name" name="name" placeholder="Ваше имя"> <br>
-        Ваша почта для обратной связи: <input type="email" name="email" placeholder="Ваша почта"> <br>
-        Оставьте ваш отзыв, пожелания или жалобы: <br>
-       <textarea name="review" cols="65" rows="10"></textarea> <br>
-       <input type="submit">
-       <input type="reset">
-    </form>
-    <hr align="left" color="chocolate">
-   Местоположение российского склада "JabaShop": <br>
-   <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9b194fa365850280091980756c3b2954ef894efa88a832239a28e78a129c0aaa&amp;source=constructor" width="590" height="480" frameborder="0"></iframe>
-   <hr align="left" color="chocolate">
-   Наш интернет-магазин "JabaShop"
-    support@jabashop.ru
+    <header class="hm">
+        <img class="frog" align=left src="images/frog.png" alt="frog.png">
+        <h1 class="h">Маркетплейс для продажи жаб..</h1>
+        <ul class="header">
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="about.html"">О нас</a></li>
+        </ul>
+    </header>
+   <hr class="hr" align="left">
+   <div class="containerr">
+    <h2>Наши преимущества</h2> 
+    Меняем представление о качестве онлайн-сервиса. Делаем покупки удобными и выгодными. <br> 
+    Экономим ваши деньги и время, позволяя вам вложиться в поистине прекрасную вещь - жабу. 
+    <hr class="hr" align="left">
+     <form class="form-about">
+         <legend>Что вы думаете о нашем сайте и товарах?</legend>
+         Представьтесь: <input type="name" name="name" placeholder="Ваше имя"> <br>
+         Ваша почта для обратной связи: <input type="email" name="email" placeholder="Ваша почта"> <br>
+         Оставьте ваш отзыв, пожелания или жалобы: <br>
+         <textarea name="review" cols="65" rows="10"></textarea> <br>
+         <input type="submit">
+         <input type="reset">
+     </form> 
+     <hr class="hr" align="left">
+     <p>Местоположение российского склада "JabaShop": </p>
+   </div>
+   <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9b194fa365850280091980756c3b2954ef894efa88a832239a28e78a129c0aaa&amp;source=constructor" width="100%" height="419" frameborder="0"></iframe>
+   <hr class="hr" align="left">
+   <footer class="footer">
+        <p>Наш интернет-магазин "JabaShop" <br> support@jabashop.ru </p> 
+   </footer>
 </body>
 </html>

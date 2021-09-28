@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=EB+Garamond&family=Gideon+Roman&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+.frog {
+    width: 100px;
+    height: 75px;
+}
+
+.gif {
+    margin-left: 34%;
+}
+
+.froog {
+    list-style: none;
+}
+
+.froog > li {
+    display: inline-block;
+}
+
+.header {
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(216, 107, 107);
+}
+
+.header > li {
+    display: inline-block;
+}
+
+.header > li > a {
+    list-style: none;
+    margin-left: 365px;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
+
+.header > li > a:hover {
+    color: rgb(169, 250, 196);
+}
+
+.p > a {
+    text-decoration: none;
+    color: rgb(216, 107, 107);
+}
+
+.hr {
+    border-color:rgb(216, 107, 107);
+}
+.h {
+    margin-left: 36%;
+}
+.h1 {
+    margin-left: 38%;
+}
+.h2 {
+    margin-left: 43%;
+}
+.h3 {
+    margin-left: 47%;
+}
+.ul {
+    list-style: none;
+}
+.ul > li {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+.ul > li > a:hover {
+    color:rgb(216, 107, 107);
+}
+
+.img {
+    height: 300px;
+    width: 400px;
+    outline: 5px solid rgb(216, 107, 107);;
+}
+
+.footer {
+    margin: 20px 0px;
+    background-color: rgb(216, 107, 107);
+    padding: 1px 10px;
+}
+
+.container {
+    margin: 30px;
+    text-align:justify;
+}
+
+.container-c {
+    margin: 30px 30px;
+}
+
+.hm {
+    margin: 10px 0px;
+}
+
+.form-about {
+    text-align: center;
+}
+
+.containerr {
+    margin: 0px 450px 0px;
+    text-align:center;
+}
+
+.page{
+    margin: 30px 360px;
+    text-align: center;
+}
+
+.big {
+    outline: 5px solid rgb(216, 107, 107);
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    user-select: none;
+    outline: 5px solid rgb(216, 107, 107);
+    border-radius: 1px;
+  } 
+  .button:active {background: white;}
+  .button:hover {color: rgb(216, 107, 107);}
+
+body {
+    background-color: rgb(169, 250, 196);
+    font-size: 27px;
+    font-family: Yanone Kaffeesatz;
+    text-decoration: none; 
+}
