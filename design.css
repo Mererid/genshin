@@ -1,21 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=EB+Garamond&family=Gideon+Roman&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Yanone+Kaffeesatz:wght@300&display=swap');
 
 .frog {
     width: 100px;
     height: 75px;
 }
 
-.header-footer {
+.gif {
+    margin-left: 34%;
+}
+
+.froog {
+    list-style: none;
+}
+
+.froog > li {
+    display: inline-block;
+}
+
+.header {
     padding: 10px;
     list-style: none;
     background-color: rgb(216, 107, 107);
 }
 
-.header-footer > li {
+.header > li {
     display: inline-block;
 }
 
-.header-footer > li > a {
+.header > li > a {
     list-style: none;
     margin-left: 365px;
     text-decoration: none;
@@ -23,7 +35,7 @@
     color: black;
 }
 
-.header-footer > li > a:hover {
+.header > li > a:hover {
     color: rgb(169, 250, 196);
 }
 
@@ -66,23 +78,49 @@
 .img {
     height: 300px;
     width: 400px;
-    outline: 3px solid rgb(216, 107, 107);
+    outline: 5px solid rgb(216, 107, 107);;
 }
 
-.mapp {
-    position: absolute;
-    top: 40%;
-    left: 60%;
+.footer {
+    margin: 20px 0px;
+    background-color: rgb(216, 107, 107);
+    padding: 1px 10px;
 }
-.map {
-    position: absolute;
-    top: 47%;
-    left: 60%;
+
+.container {
+    margin: 30px;
+    text-align:justify;
+}
+
+.container-c {
+    margin: 30px 30px;
+}
+
+.hm {
+    margin: 10px 0px;
+}
+
+.form-about {
+    text-align: center;
+}
+
+.containerr {
+    margin: 0px 450px 0px;
+    text-align:center;
+}
+
+.page{
+    margin: 30px 360px;
+    text-align: center;
+}
+
+.big {
+    outline: 5px solid rgb(216, 107, 107);
 }
 
 body {
     background-color: rgb(169, 250, 196);
     font-size: 27px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: Yanone Kaffeesatz;
     text-decoration: none; 
 }
